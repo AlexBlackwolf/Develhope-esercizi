@@ -2,7 +2,9 @@ package javabasics._4;
 
 public class Main {
     public static void main(String[] args) {
-
+        exercise1();
+        exercise2();
+        exercise3();
     }
 
     /**
@@ -36,11 +38,13 @@ public class Main {
      */
     private static void exercise3() {
         System.out.println("\nExercise 3:");
+        //set Boolean variable for eating lunch (has the lunch been eaten?)
         boolean hasEatenLunch = false;
-
+        // set double variable for lunchcost (price of lunch)
         double lunchCost = 5.99;
-
+        // output first lunch cost
         System.out.println("Lunch cost=" + lunchCost);
+        // output lunch eaten
         System.out.println("Has Eaten lunch=" + hasEatenLunch);
     }
 }
