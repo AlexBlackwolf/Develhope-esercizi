@@ -8,6 +8,8 @@ public class Main {
         exercise1();
         exercise2();
         exercise3();
+        exercise4();
+        exercise5();
     }
 
     /**
@@ -26,7 +28,7 @@ public class Main {
         int sumForA = 0;
 
         // Write your code for 1a here
-        for (int itemA : itemsA) {
+        for (int itemA : itemsA) {      // use Interger next time
             sumForA = itemA + sumForA;
         }
         System.out.println(sumForA);

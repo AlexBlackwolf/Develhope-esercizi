@@ -1,6 +1,6 @@
 package javabasics._15;
 
-public class Main {
+public class  Main {
     public static void main(String[] args) {
         exercise1();
         exercise2();
@@ -21,10 +21,11 @@ public class Main {
         double perYearMultiplier = 1 + (averageReturnFromStockMarketIndexPercentage / 100);
         int yearsPast = 0;
         double interestGainedThisYearEuros = 0;
+        //1a
+        //while (currentInvestmentValueEuros < 100_000) { <--- this exercise 1a
+        //1b
+        while (yearsPast < 5 || currentInvestmentValueEuros < 15_000) {
 
-        while (currentInvestmentValueEuros < 100_000) {
-            if (yearsPast >= 5 || currentInvestmentValueEuros >= 15_000)
-                break;
             System.out.println("Investment value = €" + currentInvestmentValueEuros + " after " + yearsPast++ + " years" +
                     ", interest this year €" + interestGainedThisYearEuros);
             double previousYearsInvestment = currentInvestmentValueEuros;

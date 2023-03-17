@@ -70,9 +70,17 @@ public class Main {
         menuitems.add("Soda");
         menuPrices.add(1.99);
         //   * Create a print statement to output the name and price of each
-        System.out.println ("price: " + menuPrices.get(0) + " dish: " + menuitems.get(0));
-        System.out.println ("price: " + menuPrices.get(1) + " dish: " + menuitems.get(1));
-        System.out.println ("price: " + menuPrices.get(2) + " dish: " + menuitems.get(2));
+        System.out.println("price: " + menuPrices.get(0) + " dish: " + menuitems.get(0));
+        System.out.println("price: " + menuPrices.get(1) + " dish: " + menuitems.get(1));
+        System.out.println("price: " + menuPrices.get(2) + " dish: " + menuitems.get(2));
+
+        for (int i = 0; i < menuPrices.size(); i++)
+            System.out.println("price: " + menuPrices.get(i) + " dish: " + menuitems.get(i));
+        for (String s : menuitems) {
+            System.out.println(s);
+        }
+        for (int i = 0; i < menuitems.size(); i++)
+            System.out.println(menuitems.get(i));
     }
 
     /**
