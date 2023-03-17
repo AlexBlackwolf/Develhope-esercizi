@@ -58,21 +58,21 @@ public class Main {
         System.out.println("\nExercise 2:");
         //Write your code here§
         //* 2: Create 2 Array Lists,
-        //* A list of strings called 'menuItems'
-        ArrayList<String> menuItems = new ArrayList<>();
+        //* A list of strings called 'menuitems'
+        ArrayList<String> menuitems = new ArrayList<>();
         //And a list of Doubles called 'menuPrices'
         ArrayList<Double> menuPrices = new ArrayList<>();
         //  * The indexes of these two lists correspond to eachother
-        menuItems.add("Cheeseburger");
+        menuitems.add("Cheeseburger");
         menuPrices.add(8.99);
-        menuItems.add("Fries");
+        menuitems.add("Fries");
         menuPrices.add(2.99);
-        menuItems.add("Soda");
+        menuitems.add("Soda");
         menuPrices.add(1.99);
         //   * Create a print statement to output the name and price of each
-        System.out.println(menuPrices.get(0) + menuItems.get(0));
-        System.out.println(menuPrices.get(1) + menuItems.get(1));
-        System.out.println(menuPrices.get(2) + menuItems.get(2));
+        System.out.println ("price: " + menuPrices.get(0) + " dish: " + menuitems.get(0));
+        System.out.println ("price: " + menuPrices.get(1) + " dish: " + menuitems.get(1));
+        System.out.println ("price: " + menuPrices.get(2) + " dish: " + menuitems.get(2));
     }
 
     /**
