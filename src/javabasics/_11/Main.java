@@ -31,6 +31,7 @@ public class Main {
                 orderCalories = 850;
                 orderCost = 7.99;
                 System.out.println("Order cost:" + orderCost + " "+ "Order Calories:" + orderCalories);
+                //break; for first request
             case "fries":
                 orderCalories = 250;
                 orderCost = 3.99;
@@ -56,7 +57,7 @@ public class Main {
     public static void exercise2() {
         System.out.println("\nExercise 2 - Prime numbers:");
 
-        int inputNumber = 7;
+        int inputNumber = 7; //----change to above 20 to have said is invalid
 
         // Your switch statement here
 
