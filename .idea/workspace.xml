@@ -30,7 +30,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.javabasics._11.Main">
+  <component name="RunManager" selected="Application.javabasics._17.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javabasics._14.Main" />
       <module name="Develhope-esercizi" />
@@ -57,6 +57,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="javabasics._12.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javabasics._12.Main" />
+      <module name="Develhope-esercizi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javabasics._12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="javabasics._13.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javabasics._13.Main" />
       <module name="Develhope-esercizi" />
@@ -70,25 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javabasics._15.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javabasics._15.Main" />
+    <configuration name="javabasics._17.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javabasics._17.Main" />
       <module name="Develhope-esercizi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javabasics._15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="javabasics._16.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javabasics._16.Main" />
-      <module name="Develhope-esercizi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javabasics._16.*" />
+          <option name="PATTERN" value="javabasics._17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.javabasics._11.Main" />
-        <item itemvalue="Application.javabasics._16.Main" />
-        <item itemvalue="Application.javabasics._13.Main" />
-        <item itemvalue="Application.javabasics._15.Main" />
+        <item itemvalue="Application.javabasics._17.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.javabasics._13.Main" />
+        <item itemvalue="Application.javabasics._12.Main" />
+        <item itemvalue="Application.javabasics._11.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679088573411</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="exercise 2">
+      <created>1679151448077</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1679151448077</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
