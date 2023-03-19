@@ -20,19 +20,15 @@ public class Main {
      */
     private static void exercise1() {
         System.out.println("Exercise 1:");
-        // Put this into a function
         double celsius = 30;
         double fahrenheit = ((celsius * 9) / 5) + 32;
-        String conversionDescription = celsius + " Celsius is " + fahrenheit + " fahrenheit";
-        // End
-        System.out.println(conversionDescription);
-
+        String weatherStatement = conversionDescription(celsius, fahrenheit);
+        System.out.println(weatherStatement);
     }
-    private static void convertCelsiusToFahrenheit() {
-        double celsius = 30;
-        double fahrenheit = ((celsius * 9) / 5) + 32;
-        String conversionDescription = celsius + " Celsius is " + fahrenheit + " Fahrenheit";
-        System.out.println(conversionDescription);
+        // inter your function
+        // End
+        public static String conversionDescription(double celsius, double fahrenheit) {
+            return celsius + " Celsius is " + fahrenheit + " Fahrenheit";
     }
     /**
      * 2: Create a function that processes and prints out all the names in the ArrayList
@@ -47,22 +43,26 @@ public class Main {
         List<String> names = Arrays.asList("Alan   ", "Alice   ", "Ant0ni0   ", "  Aziz");
 
         for (String name : names) {
-            // Call your function
-            boolean containsNumber = false;
-            for (int i = 0; i < name.length(); i++) {
-                if (Character.isDigit(name.charAt(i))) {
-                    containsNumber = true;
-                    break;
-                }
-            }
-            // process the name based on whether it contains a number
-            if (containsNumber) {
-                System.out.println("Invalid");
-            } else {
-                System.out.println(name.toUpperCase().trim());
-            }
+            String processedName = processName(name);
+            System.out.println(processedName);
         }
     }
+            // Call your function
+            public static String processName(String name) {
+                String trimmedName = name.trim();
+                boolean containsNumber = false;
+                for (int i = 0; i < trimmedName.length(); i++) {
+                    if (Character.isDigit(trimmedName.charAt(i))) {
+                        containsNumber = true;
+                        break;
+                    }
+                }
+                if (containsNumber) {
+                    return "Invalid";
+                } else {
+                    return trimmedName.toUpperCase();
+                }
+            }
 
     /**
      * 3: Write a function that prints out every variable seen in the code. It should not return anything

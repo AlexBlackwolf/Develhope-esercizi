@@ -3,6 +3,10 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         int num = 4;
+        String name= "Alex";
+        String name2= "MICHAEL";
+        System.out.println(lowercase(name));
+        System.out.println(uppercase(name2)+(name));
         boolean result = isEven(num);
         System.out.println(result);
         String inverted = invertedHello();
@@ -14,7 +18,16 @@ public class Main {
         String str2 = "silent";
         boolean areAnagramsResult = areAnagrams(str1, str2);
         System.out.println(areAnagramsResult);
-        }
+    }
+    public static String lowercase(String setnametolower) {
+        return setnametolower.toLowerCase();
+    }
+
+    public static String uppercase( String setnametoupper) {
+        return  setnametoupper.toUpperCase();
+
+    }
+
         public static boolean isEven ( int num){
             if (num % 2 == 0) {
                 return true;
@@ -59,6 +72,7 @@ public class Main {
             return Arrays.equals(charArray1, charArray2);
         }
 }
+
 //whats num %2 ==0
 
 //num % 2 == 0 is a boolean expression in Java that checks if the remainder of dividing the integer variable num by 2 is equal to zero.
