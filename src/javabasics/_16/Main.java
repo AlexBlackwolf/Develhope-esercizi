@@ -76,6 +76,10 @@ public class Main {
         int weightInGrams = 500;
 
         // Call your function
+        printVariables(myLunchPrice, lunchType, description, weightInGrams);
+    }
+
+    private static void printVariables(double myLunchPrice, String lunchType, String description, int weightInGrams) {
         System.out.println("myLunchPrice = " + myLunchPrice);
         System.out.println("lunchType = " + lunchType);
         System.out.println("description = " + description);
