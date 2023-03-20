@@ -25,7 +25,7 @@ public class Main {
         String weatherStatement = conversionDescription(celsius, fahrenheit);
         System.out.println(weatherStatement);
     }
-        // inter your function
+        // Enter your function
         // End
         public static String conversionDescription(double celsius, double fahrenheit) {
             return celsius + " Celsius is " + fahrenheit + " Fahrenheit";
@@ -62,7 +62,7 @@ public class Main {
                 } else {
                     return trimmedName.toUpperCase();
                 }
-            }
+    }
 
     /**
      * 3: Write a function that prints out every variable seen in the code. It should not return anything
