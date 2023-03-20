@@ -59,9 +59,8 @@ public class Main {
                 }
                 if (containsNumber) {
                     return "Invalid";
-                } else {
-                    return trimmedName.toUpperCase();
                 }
+                    return trimmedName.toUpperCase();
     }
 
     /**
