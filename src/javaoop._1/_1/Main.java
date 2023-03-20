@@ -25,10 +25,10 @@ public class Main {
         String weatherStatement = conversionDescription(celsius, fahrenheit);
         System.out.println(weatherStatement);
     }
-        // Enter your function
-        // End
-        public static String conversionDescription(double celsius, double fahrenheit) {
-            return celsius + " Celsius is " + fahrenheit + " Fahrenheit";
+    // Enter your function
+    // End
+    public static String conversionDescription(double celsius, double fahrenheit) {
+        return celsius + " Celsius is " + fahrenheit + " Fahrenheit";
     }
     /**
      * 2: Create a function that processes and prints out all the names in the ArrayList
@@ -47,21 +47,21 @@ public class Main {
             System.out.println(processedName);
         }
     }
-            // Call your function
-            public static String processName(String name) {
-                String trimmedName = name.trim();
-                boolean containsNumber = false;
-                for (int i = 0; i < trimmedName.length(); i++) {
-                    if (Character.isDigit(trimmedName.charAt(i))) {
-                        containsNumber = true;
-                        break;
-                    }
-                }
-                if (containsNumber) {
-                    return "Invalid";
-                } else {
-                    return trimmedName.toUpperCase();
-                }
+    // Call your function
+    public static String processName(String name) {
+        String trimmedName = name.trim();
+        boolean containsNumber = false;
+        for (int i = 0; i < trimmedName.length(); i++) {
+            if (Character.isDigit(trimmedName.charAt(i))) {
+                containsNumber = true;
+                break;
+            }
+        }
+        if (containsNumber) {
+            return "Invalid";
+        } else {
+            return trimmedName.toUpperCase();
+        }
     }
 
     /**
