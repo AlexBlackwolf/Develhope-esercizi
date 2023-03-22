@@ -74,7 +74,7 @@ public class Exercises {
         course.courseName = "AP Math";
         course.maxStudents = 14;
         course.qualityRatingOutOf10 = 7.3;
-        course.isCourseMandatory = false;
+        course.isCourseMandatory = true;
         course.teacherName = "Mr. Pasquale";
 
         List<String> studentNames = Arrays.asList("Alice", "Aragon", "Alex");
