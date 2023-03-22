@@ -1,11 +1,11 @@
 package OOP._1;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class Exercises {
-    public static void main(String[] args) {exercise2();
+    public static void main(String[] args) {
+        exercise2();
         exercise3();
     }
 
@@ -14,7 +14,7 @@ public class Exercises {
      *
      *    Call this class 'Course'
      *
-     *    Inside add the following fields, using an appropriate type.
+     *    Inside add the following variables, using an appropriate type.
      *    courseName, maxStudents, qualityRatingOutOf10
      *
      *    On top of this choose 2 variables of your choice!
@@ -30,24 +30,26 @@ public class Exercises {
      */
     private static void exercise2() {
         System.out.println("Exercise 2:");
-        List<String> studentNames = Arrays.asList("Alice", "Aragon", "Alex"); //<----lista statica cannot add nor remove objects
+        List<String> studentNames = Arrays.asList("Alice", "Aragon", "Alex");
         List<Integer> studentAges = Arrays.asList(23, 31, 38);
-        ArrayList<Student>studenNameAndAge=new ArrayList<>();
+
         // Use a for i loop
+
         for (int i = 0; i < studentNames.size(); i++) {
-            studenNameAndAge.add (createNewStudent(studentNames.get(i), studentAges.get(i)));
+            Student s = createNewStudent(studentNames.get(i),studentAges.get(i));
+            System.out.println(s.name + " " + s.age);
         }
-        System.out.println(studenNameAndAge.get(0).name);
-        System.out.println(studenNameAndAge.get(0).age);// size to get all numbers of elements
     }
+
+
     private static Student createNewStudent(String name, Integer age) {
-        Student rookie = new Student();
-        rookie.age= age;
-        rookie.name=name;
+        Student student = new Student();
 
         // Write your code here
+        student.name = name;
+        student.age = age;
 
-        return rookie;
+        return student;
     }
 
     /*
@@ -67,5 +69,26 @@ public class Exercises {
         System.out.println("\nExercise 3:");
 
         // Write your code here
+
+        Course course = new Course();
+        course.courseName = "AP Math";
+        course.maxStudents = 14;
+        course.qualityRatingOutOf10 = 7.3;
+        course.isCourseMandatory = false;
+        course.teacherName = "Mr. Pasquale";
+
+        List<String> studentNames = Arrays.asList("Alice", "Aragon", "Alex");
+        List<Integer> studentAges = Arrays.asList(23, 31, 38);
+
+        for (int i = 0; i < studentNames.size(); i++) {
+            Student s = createNewStudent(studentNames.get(i),studentAges.get(i));
+            course.students.add(s);
+        }
+        double sum = 0;
+
+        for (Student s: course.students) {
+            sum += s.age;
+        }
+        System.out.println("Average age: " + (sum/course.students.size()));
     }
 }

@@ -1,11 +1,13 @@
 package OOP._1;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Course {
-    String courseName = null;
-    Integer maxStudents = null; //interget occupaa più memoria di int, se non devo usare i metodi relezionati a Interget tanto vale mettere int
-    Integer qualityRatingOutOf10 = null;
-    String teacherName = null;
-    String courseDays = null;
-
-
+    String courseName;
+    int maxStudents;
+    double qualityRatingOutOf10;
+    boolean isCourseMandatory;
+    String teacherName;
+    List<Student> students = new ArrayList<>();
 }

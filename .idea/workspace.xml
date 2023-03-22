@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6821525f-789b-4da2-9446-fcc40194a045" name="Changes" comment="exercise 2">
-      <change afterPath="$PROJECT_DIR$/src/JavaAlex/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAlex/Students.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP/_1/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP/_1/Exercises.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP/_1/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOP/_1/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/_1/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOP/_1/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/_1/Exercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOP/_1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/_1/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +47,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/alex_/OneDrive/Desktop/Group Project  Ristorante"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/alex_/OneDrive/Desktop/Group Project  Ristorante&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="OOP._1" />
@@ -71,13 +69,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Develhope-esercizi" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,13 +112,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="javaoop._1.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaoop._1.Exercises" />
+      <module name="Develhope-esercizi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaoop._1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.OOP._1.Exercises" />
+        <item itemvalue="Application.javaoop._1.Exercises" />
         <item itemvalue="Application.javabasics._16.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Exercises" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679339416681</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="exercise 2">
+      <created>1679491487608</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1679491487608</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
