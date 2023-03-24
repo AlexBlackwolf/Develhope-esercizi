@@ -6,6 +6,7 @@ public class Student {
     private String major;
     private String id;
     private double grades;
+    private int getNameCounter;
 
     public Student(String name, int age, String major, String id, double grades) {
         this.name = name;
@@ -14,7 +15,7 @@ public class Student {
         this.id = id;
         this.grades = grades;
     }
-    private int getNameCounter;
+     //next time i'll call the variable nameCounter and for future i'll avoid using get to name variables!!!!!!
     public String getName() {
         getNameCounter++;
         return name;
