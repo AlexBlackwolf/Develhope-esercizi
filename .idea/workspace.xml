@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6821525f-789b-4da2-9446-fcc40194a045" name="Changes" comment="exercise 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOP/_2/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/_2/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,14 +56,17 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="OOP._1" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="OOP._3" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.OOP._2.Exercises">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaAlex.Main" />
+  <component name="RunManager" selected="Application.Exercises">
+    <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP._3.Exercises" />
       <module name="Develhope-esercizi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaAlex.*" />
+          <option name="PATTERN" value="OOP._3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercises" />
         <item itemvalue="Application.OOP._2.Exercises" />
         <item itemvalue="Application.OOP._1.Exercises" />
         <item itemvalue="Application.javaoop._1.Exercises" />
         <item itemvalue="Application.javabasics._16.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679492605421</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="exercise 2">
+      <created>1679584158938</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1679584158938</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

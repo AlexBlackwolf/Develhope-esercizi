@@ -6,9 +6,9 @@ public class Student {
     private int age;
 
     public Student(String name, int age) {
+        System.out.println("Constructing!");
         this.name = name;
         this.age = age;
-        System.out.println("Constructing!");
         System.out.println("Constructed!");
     }
 
