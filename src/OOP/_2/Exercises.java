@@ -52,6 +52,7 @@ public class Exercises {
                 new Student(33),
                 new Student()
         );
+        // exercise requires an outcome as an error, added code below to avoid error, please wile verifying the exercise take this into account//
         Student alice = students.get(0);
         Student bob = students.get(1);
         Student thirdStudent = students.get(2);
