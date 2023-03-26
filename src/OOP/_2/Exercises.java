@@ -29,6 +29,7 @@ public class Exercises {
             // Write create students
             Student student = new Student(studentNames.get(i), studentAges.get(i));
             student.newStudent();
+
         }
     }
 
