@@ -19,7 +19,7 @@ public class Exercises {
      * Add a print statement to the constructor at the start saying "Constructing!"
      * Add a print statement to the constructor at the start saying "Constructed!"
      */
-    private static void exercise1() {
+    private static void  exercise1() {
         System.out.println("Exercise 1:");
         List<String> studentNames = Arrays.asList("Alice", "Bob", "Charlie");
         List<Integer> studentAges = Arrays.asList(23, 31, 38);
@@ -27,13 +27,8 @@ public class Exercises {
 
         for (int i = 0; i < studentAges.size(); i++) {
             // Write create students
-            // Get the name and age from the class
-            String name = studentNames.get(i);
-            Integer age = studentAges.get(i);
-            // Create a new Student object with the given name and age
-            Student student = new Student(name, age);
-            // Add the Student object to the list of students
-            students.add(student);
+            Student student = new Student(studentNames.get(i), studentAges.get(i));
+            student.newStudent();
         }
     }
 

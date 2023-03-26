@@ -39,4 +39,9 @@ public class Student {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public void newStudent() {
+        System.out.println("List of students: " +
+                name + ", "+ age);
+    }
 }
