@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6821525f-789b-4da2-9446-fcc40194a045" name="Changes" comment="exercise 2">
+    <list default="true" id="6821525f-789b-4da2-9446-fcc40194a045" name="Changes" comment="modified exercise 2/ exercise2() important note to verify exercise result">
+      <change afterPath="$PROJECT_DIR$/src/Javaadvanced/_1/Exercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/OOP/_2/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/_2/Exercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/_2/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/_2/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
       <recent name="OOP._3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OOP._2.Exercises">
+  <component name="RunManager" selected="Application.javaadvanced._1.Exercises">
     <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOP._3.Exercises" />
       <module name="Develhope-esercizi" />
@@ -114,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javaoop._1.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaoop._1.Exercises" />
+    <configuration name="javaadvanced._1.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaadvanced._1.Exercises" />
       <module name="Develhope-esercizi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaoop._1.*" />
+          <option name="PATTERN" value="javaadvanced._1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.javaadvanced._1.Exercises" />
         <item itemvalue="Application.OOP._2.Exercises" />
         <item itemvalue="Application.OOP._4.Exercises" />
         <item itemvalue="Application.Exercises" />
         <item itemvalue="Application.OOP._1.Exercises" />
-        <item itemvalue="Application.javaoop._1.Exercises" />
       </list>
     </recent_temporary>
   </component>
@@ -391,12 +391,36 @@
       <option name="project" value="LOCAL" />
       <updated>1679701594951</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="modified exercise 2 added a new function to recall name&amp;age of student">
+      <created>1679873005609</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1679873005609</updated>
+    </task>
+    <task id="LOCAL-00037" summary="modified exercise 2 added a new function to recall name&amp;age of student">
+      <created>1679873035763</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1679873035763</updated>
+    </task>
+    <task id="LOCAL-00038" summary="modified exercise 2/ exercise2() important note to verify exercise result">
+      <created>1679873244274</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1679873244274</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="exercise 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercise 2" />
+    <MESSAGE value="modified exercise 1 added a new function to recall name&amp;age of student" />
+    <MESSAGE value="modified exercise 2 added a new function to recall name&amp;age of student" />
+    <MESSAGE value="modified exercise 2/ exercise2() important note to verify exercise result" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified exercise 2/ exercise2() important note to verify exercise result" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Develhope_esercizi$javabasics__4_Main.ic" NAME="javabasics._4.Main Coverage Results" MODIFIED="1678454810719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
