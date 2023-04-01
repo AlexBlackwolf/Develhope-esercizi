@@ -99,6 +99,7 @@ public class Exercises {
 
         if (max != 10 || min != 1) {
             System.out.println("3a. Incorrect min or max values");
+        }else {  System.out.println("3a. Correct min and max values");
         }
 
         // 3b. Find which items from set a are also in set b, add these to itemsContainedInBothSets

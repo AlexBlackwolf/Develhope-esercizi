@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6821525f-789b-4da2-9446-fcc40194a045" name="Changes" comment="added second exercise of advancedjava">
-      <change afterPath="$PROJECT_DIR$/src/provaesame/_prova1/BankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javaadvanced/_1/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javaadvanced/_1/Exercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/provaesame/_prova1/BankAccountTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/provaesame/_prova1/BankAccountTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
       <recent name="OOP._3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BankAccountTester">
+  <component name="RunManager" selected="Application.PersonTester">
     <configuration name="BankAccountTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="provaesame._prova1.BankAccountTester" />
       <module name="Develhope-esercizi" />
@@ -88,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOP._4.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP._4.Exercises" />
+    <configuration name="PersonTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="provaesame._prova2.PersonTester" />
       <module name="Develhope-esercizi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP._4.*" />
+          <option name="PATTERN" value="provaesame._prova2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BankAccountTester" />
+        <item itemvalue="Application.PersonTester" />
         <item itemvalue="Application.javaadvanced._1.Exercises" />
+        <item itemvalue="Application.BankAccountTester" />
         <item itemvalue="Application.javaadvanced._2.Exercises" />
         <item itemvalue="Application.OOP._2.Exercises" />
-        <item itemvalue="Application.OOP._4.Exercises" />
       </list>
     </recent_temporary>
   </component>
@@ -426,7 +425,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680068758057</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="added second exercise of advancedjava">
+      <created>1680322997926</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1680322997926</updated>
+    </task>
+    <task id="LOCAL-00042" summary="added second exercise of advancedjava">
+      <created>1680323070101</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1680323070101</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
