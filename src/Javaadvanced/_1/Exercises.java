@@ -107,9 +107,9 @@ public class Exercises {
         Set<Integer> setB = Set.of(5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15);
         Set<Integer> itemsContainedInBothSets = new HashSet<>();
 
-        for (Integer number : setA) {
-            if (setB.contains(number)) {
-                itemsContainedInBothSets.add(number);
+        for (Integer numberA : setA) {
+            if (setB.contains(numberA)) {
+                itemsContainedInBothSets.add(numberA);
             }
         }
 
