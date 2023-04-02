@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6821525f-789b-4da2-9446-fcc40194a045" name="Changes" comment="added second exercise of advancedjava">
+    <list default="true" id="6821525f-789b-4da2-9446-fcc40194a045" name="Changes" comment="esercizio 3 Collection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/provaesame/_prova1/BankAccountTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/provaesame/_prova1/BankAccountTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/provaesame/_prova3/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/provaesame/_prova3/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/provaesame/_prova3/BankAccountTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/provaesame/_prova3/BankAccountTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,7 +64,7 @@
       <recent name="OOP._3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PersonTester">
+  <component name="RunManager" selected="Application.provaesame._prova3.BankAccountTester">
     <configuration name="BankAccountTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="provaesame._prova1.BankAccountTester" />
       <module name="Develhope-esercizi" />
@@ -74,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOP._2.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP._2.Exercises" />
+    <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaadvanced._3.Exercises" />
       <module name="Develhope-esercizi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP._2.*" />
+          <option name="PATTERN" value="javaadvanced._3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javaadvanced._2.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaadvanced._2.Exercises" />
+    <configuration name="provaesame._prova3.BankAccountTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="provaesame._prova3.BankAccountTester" />
       <module name="Develhope-esercizi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaadvanced._2.*" />
+          <option name="PATTERN" value="provaesame._prova3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.provaesame._prova3.BankAccountTester" />
+        <item itemvalue="Application.Exercises" />
         <item itemvalue="Application.PersonTester" />
         <item itemvalue="Application.javaadvanced._1.Exercises" />
         <item itemvalue="Application.BankAccountTester" />
-        <item itemvalue="Application.javaadvanced._2.Exercises" />
-        <item itemvalue="Application.OOP._2.Exercises" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +443,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680323070101</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="test beta preparazioni esami">
+      <created>1680345468364</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1680345468364</updated>
+    </task>
+    <task id="LOCAL-00044" summary="test beta preparazioni esami">
+      <created>1680396457935</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1680396457935</updated>
+    </task>
+    <task id="LOCAL-00045" summary="esercizio 3 Collection">
+      <created>1680411187145</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1680411187145</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -449,7 +474,9 @@
     <MESSAGE value="modified exercise 2/ exercise2() important note to verify exercise result" />
     <MESSAGE value="added first exercise of advancedjava" />
     <MESSAGE value="added second exercise of advancedjava" />
-    <option name="LAST_COMMIT_MESSAGE" value="added second exercise of advancedjava" />
+    <MESSAGE value="test beta preparazioni esami" />
+    <MESSAGE value="esercizio 3 Collection" />
+    <option name="LAST_COMMIT_MESSAGE" value="esercizio 3 Collection" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Develhope_esercizi$javabasics__4_Main.ic" NAME="javabasics._4.Main Coverage Results" MODIFIED="1678454810719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
