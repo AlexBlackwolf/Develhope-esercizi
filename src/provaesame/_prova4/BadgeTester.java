@@ -15,3 +15,17 @@ public class BadgeTester {
         badge2.showBadgeDetails();
     }
 }
+
+//result
+//Total number of employees: 1
+//Name: John
+//Surname: Doe
+//Address: 123 Main St
+//Badge ID code: ABCJohnDoeZYX
+//Total number of employees: 2
+//Name: Jane
+//Surname: Smith
+//Address: 456 Oak Ave
+//Badge ID code: ABCJaneSmithZYX
+//
+//Process finished with exit code 0
