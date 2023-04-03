@@ -30,7 +30,9 @@ public class BankAccountTester {
         for (int i = 0; i < accounts.length; i++) {
             System.out.println(accounts[i].toString());
         }
-        System.out.println(BankAccount.activeAccountNumber()); ////increase amount of variable everytime a bankaccount is created //it is increased everytime the constructor is called
+        System.out.println(BankAccount.activeAccountNumber());
+        ////increase amount of variable everytime a bankaccount is created
+        // it is increased everytime the constructor is called
         //creates a list of BankAccount objects
         //adds a new BankAccount object to the list with account number 444444, account holder name "Tom Brown", and balance 2000.00
         //adds the array of BankAccount objects to the list
@@ -46,8 +48,9 @@ public class BankAccountTester {
             accountList.get(0).deposit(3000); //modification added inside while will persist since it modifies the class
             System.out.println("OTTIMO!");
             //while (accountList.get(0).getBalance() >7000.00) {
-                //accountList.get(0).withdraw(250.00);
-                    //System.out.println("ancora meglio");//per richiamare modifiche nel while in questo caso doevo richiamare lo 0 che è la posizione nella lista
+            //accountList.get(0).withdraw(250.00);
+            //System.out.println("ancora meglio");
+            // per richiamare modifiche nel while in questo caso doevo richiamare lo 0 che è la posizione nella lista
             }
         }
     }

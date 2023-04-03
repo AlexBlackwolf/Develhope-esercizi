@@ -7,14 +7,18 @@ public class BankAccount {
     private String accountHolder;
     private Double balance;
 
-    private static int currentAccounts; //static method viewable outside of class
+    private static int currentAccounts;
+    //static method viewable outside of class
 
     public BankAccount(int accountNumber, String accountHolder, Double balance) { //sign of constructor//the entire thing inside the scope is the constructor
     //Create a constructor that takes in the accountNumber, accountHolderName, balance
-        this.accountNumber = accountNumber; //metto il new o this perchè senza sovrascrivo la variabile invece di richiamarla/inizializare il campo
+    //metto il new o this perchè senza sovrascrivo la variabile invece di richiamarla/inizializare il campo
+        this.accountNumber = accountNumber;
         this.accountHolder = accountHolder;
         this.balance = balance;
-        currentAccounts= currentAccounts + 1; //increase amount of variable everytime a bankaccount is created //it is increased everytime the constructor is called
+        currentAccounts= currentAccounts + 1;
+        //increase amount of variable everytime a bankaccount is created
+        // it is increased everytime the constructor is called
         //since being outside of class due to the method being static it doesnt reset like other values
         //staitc method can be called without having an instance of the class
     }
