@@ -43,11 +43,13 @@ public class Exercises {
         // Your code here
         List<String> list = Arrays.asList("apple", "banana", "apple", "orange", "kiwi", "banana");
         Set<String> set = Set.of("apple", "banana");
-    // Write your method for exercise 2 here
-        toSet(list);
-        toSet(set);
-        System.out.println(list);
-        System.out.println(set);
+    // Write your method for exercise 2 under here.
+
+        Set<String> listSet = toSet(list);
+        Set<String> setSet = toSet(set);
+
+        System.out.println("listSet: " + listSet);
+        System.out.println("setSet: " + setSet);
     }
 
 
