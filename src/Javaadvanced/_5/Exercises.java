@@ -13,6 +13,7 @@ public class Exercises {
         exercise2();
         exercise3();
         exercise4();
+
     }
 
     /**
