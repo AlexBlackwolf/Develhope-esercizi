@@ -25,6 +25,7 @@ public class Exercises {
      * Loop over the values with Days.values() and print them out.
      */
     private static void exercise1() {
+
         System.out.println("\nExercise 1: ");
         // Your code here
         for (Days days : Days.values()) {
@@ -41,6 +42,7 @@ public class Exercises {
      * Write a method that takes a Seasons value as input and returns the corresponding date range of months in that season.
      */
     private static void exercise2() {
+
         System.out.println("\nExercise 2: ");
         // Your code here
         Seasons season = Seasons.SUMMER;
@@ -53,7 +55,7 @@ public class Exercises {
      * <p>
      * Create an enum called "TrafficLight" with the values "RED", "YELLOW", "GREEN".
      * <p>
-     * Write code that simulates the behavior of a traffic light. It should take the current state of the traffic light as input and return the next state.
+     * Write code that simulate the behavior of a traffic light. It should take the current state of the traffic light as input and return the next state.
      */
     private static void exercise3() {
         System.out.println("\nExercise 3: ");
@@ -73,6 +75,7 @@ public class Exercises {
      * Write an if statement that prints weekend or weekday based on the enum
      */
     private static void exercise4() {
+
         System.out.println("\nExercise 4: ");
         // Your code here
         for (Days day : Days.values()) {
@@ -102,6 +105,7 @@ public class Exercises {
         Operator operator = Operator.ADD;
         double result;
         switch(operator) {
+
             case ADD:
                 result = num1 + num2;
             case SUBTRACT:
