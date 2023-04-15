@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6821525f-789b-4da2-9446-fcc40194a045" name="Changes" comment="esercizio 3 Collection">
+    <list default="true" id="6821525f-789b-4da2-9446-fcc40194a045" name="Changes" comment="prova esame 4">
+      <change afterPath="$PROJECT_DIR$/src/Esame/EsameBanca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Esame/JavaFirsCheckpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaadvancedOOP/_1/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaadvancedOOP/_1/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaadvancedOOP/_1/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaadvancedOOP/_1/Exercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaadvancedOOP/_1/Fish.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/provaesame/_prova3/BankAccountTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/provaesame/_prova3/BankAccountTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Develhope-esercizi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Develhope-esercizi.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +55,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/alex_/OneDrive/Desktop/Group Project  Ristorante&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/progetti/progetti java/Develhope-esercizi"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="OOP._1" />
@@ -63,13 +74,13 @@
       <recent name="OOP._3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.provaesame._prova3.BankAccountTester">
-    <configuration name="BankAccountTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="provaesame._prova1.BankAccountTester" />
+  <component name="RunManager">
+    <configuration name="BadgeTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="provaesame._prova4.BadgeTester" />
       <module name="Develhope-esercizi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="provaesame._prova1.*" />
+          <option name="PATTERN" value="provaesame._prova4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaadvanced._3.Exercises" />
+    <configuration name="DigitalMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="provaesame._prova4.DigitalMenu" />
       <module name="Develhope-esercizi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaadvanced._3.*" />
+          <option name="PATTERN" value="provaesame._prova4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="provaesame._prova2.PersonTester" />
+    <configuration name="JavaFirsCheckpoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.JavaFirsCheckpoint" />
       <module name="Develhope-esercizi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="provaesame._prova2.*" />
+          <option name="PATTERN" value="exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javaadvanced._1.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaadvanced._1.Exercises" />
+    <configuration name="NoCommit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="provaesame.NoCommit.NoCommit" />
       <module name="Develhope-esercizi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaadvanced._1.*" />
+          <option name="PATTERN" value="provaesame._prova4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="provaesame._prova3.BankAccountTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="provaesame._prova3.BankAccountTester" />
+    <configuration name="NoCommit1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="provaesame.NoCommit.NoCommit1" />
       <module name="Develhope-esercizi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="provaesame._prova3.*" />
+          <option name="PATTERN" value="provaesame._prova4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.provaesame._prova3.BankAccountTester" />
-        <item itemvalue="Application.Exercises" />
-        <item itemvalue="Application.PersonTester" />
-        <item itemvalue="Application.javaadvanced._1.Exercises" />
-        <item itemvalue="Application.BankAccountTester" />
+        <item itemvalue="Application.DigitalMenu" />
+        <item itemvalue="Application.NoCommit1" />
+        <item itemvalue="Application.JavaFirsCheckpoint" />
+        <item itemvalue="Application.NoCommit" />
+        <item itemvalue="Application.BadgeTester" />
       </list>
     </recent_temporary>
   </component>
@@ -147,13 +158,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678405158579</updated>
-    </task>
-    <task id="LOCAL-00001" summary="exercise 2">
-      <created>1678409570057</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1678409570057</updated>
     </task>
     <task id="LOCAL-00002" summary="exercise 2">
       <created>1678454722036</created>
@@ -470,7 +474,35 @@
       <option name="project" value="LOCAL" />
       <updated>1680472974970</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="esercizio 3 Collection">
+      <created>1680474786201</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1680474786201</updated>
+    </task>
+    <task id="LOCAL-00048" summary="prova esame 3">
+      <created>1680507779255</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1680507779255</updated>
+    </task>
+    <task id="LOCAL-00049" summary="prova esame 4">
+      <created>1680508946943</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1680508946943</updated>
+    </task>
+    <task id="LOCAL-00050" summary="prova esame 4">
+      <created>1680509013323</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1680509013323</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -482,7 +514,9 @@
     <MESSAGE value="added second exercise of advancedjava" />
     <MESSAGE value="test beta preparazioni esami" />
     <MESSAGE value="esercizio 3 Collection" />
-    <option name="LAST_COMMIT_MESSAGE" value="esercizio 3 Collection" />
+    <MESSAGE value="prova esame 3" />
+    <MESSAGE value="prova esame 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="prova esame 4" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Develhope_esercizi$javabasics__4_Main.ic" NAME="javabasics._4.Main Coverage Results" MODIFIED="1678454810719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
