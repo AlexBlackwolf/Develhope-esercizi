@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6821525f-789b-4da2-9446-fcc40194a045" name="Changes" comment="prova esame 4">
+    <list default="true" id="6821525f-789b-4da2-9446-fcc40194a045" name="Changes" comment="esercizio Inheritance _1">
+      <change afterPath="$PROJECT_DIR$/src/JavaadvancedOOP/_2/Guitar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="aeb62c2a-63bb-48c0-95eb-6c55ba0c8d8e" name="esame 1" comment="">
       <change afterPath="$PROJECT_DIR$/src/Esame/EsameBanca.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Esame/JavaFirsCheckpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaadvancedOOP/_1/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaadvancedOOP/_1/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaadvancedOOP/_1/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaadvancedOOP/_1/Exercises.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaadvancedOOP/_1/Fish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Develhope-esercizi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Develhope-esercizi.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -55,26 +53,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/progetti/progetti java/Develhope-esercizi"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/progetti/progetti java/Develhope-esercizi&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="JavaadvancedOOP._2" />
       <recent name="OOP._1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="OOP._3" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Exercises">
     <configuration name="BadgeTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="provaesame._prova4.BadgeTester" />
       <module name="Develhope-esercizi" />
@@ -101,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaFirsCheckpoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.JavaFirsCheckpoint" />
+    <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaadvancedOOP._2.Exercises" />
       <module name="Develhope-esercizi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.*" />
+          <option name="PATTERN" value="JavaadvancedOOP._2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoCommit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="provaesame.NoCommit.NoCommit" />
+    <configuration name="JavaFirsCheckpoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.JavaFirsCheckpoint" />
       <module name="Develhope-esercizi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="provaesame._prova4.*" />
+          <option name="PATTERN" value="exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercises" />
+        <item itemvalue="Application.BadgeTester" />
         <item itemvalue="Application.DigitalMenu" />
         <item itemvalue="Application.NoCommit1" />
         <item itemvalue="Application.JavaFirsCheckpoint" />
-        <item itemvalue="Application.NoCommit" />
-        <item itemvalue="Application.BadgeTester" />
       </list>
     </recent_temporary>
   </component>
@@ -154,17 +154,11 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6821525f-789b-4da2-9446-fcc40194a045" name="Changes" comment="" />
+      <changelist id="aeb62c2a-63bb-48c0-95eb-6c55ba0c8d8e" name="esame 1" comment="" />
       <created>1678405158579</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678405158579</updated>
-    </task>
-    <task id="LOCAL-00002" summary="exercise 2">
-      <created>1678454722036</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1678454722036</updated>
     </task>
     <task id="LOCAL-00003" summary="exercise 2">
       <created>1678454727758</created>
@@ -502,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680509013323</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="esercizio Inheritance _1">
+      <created>1681567141573</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1681567141573</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -516,7 +517,8 @@
     <MESSAGE value="esercizio 3 Collection" />
     <MESSAGE value="prova esame 3" />
     <MESSAGE value="prova esame 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="prova esame 4" />
+    <MESSAGE value="esercizio Inheritance _1" />
+    <option name="LAST_COMMIT_MESSAGE" value="esercizio Inheritance _1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Develhope_esercizi$javabasics__4_Main.ic" NAME="javabasics._4.Main Coverage Results" MODIFIED="1678454810719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
