@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6821525f-789b-4da2-9446-fcc40194a045" name="Changes" comment="esercizio Inheritance _1">
-      <change afterPath="$PROJECT_DIR$/src/JavaadvancedOOP/_2/Guitar.java" afterDir="false" />
+    <list default="true" id="6821525f-789b-4da2-9446-fcc40194a045" name="Changes" comment="esercizio Abastract Interface _2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="aeb62c2a-63bb-48c0-95eb-6c55ba0c8d8e" name="esame 1" comment="">
@@ -74,7 +73,7 @@
       <recent name="OOP._3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exercises">
+  <component name="RunManager" selected="Application.JavaadvancedOOP._3.Exercises">
     <configuration name="BadgeTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="provaesame._prova4.BadgeTester" />
       <module name="Develhope-esercizi" />
@@ -114,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaFirsCheckpoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.JavaFirsCheckpoint" />
+    <configuration name="JavaadvancedOOP._3.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaadvancedOOP._3.Exercises" />
       <module name="Develhope-esercizi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.*" />
+          <option name="PATTERN" value="JavaadvancedOOP._3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaadvancedOOP._3.Exercises" />
         <item itemvalue="Application.Exercises" />
         <item itemvalue="Application.BadgeTester" />
         <item itemvalue="Application.DigitalMenu" />
         <item itemvalue="Application.NoCommit1" />
-        <item itemvalue="Application.JavaFirsCheckpoint" />
       </list>
     </recent_temporary>
   </component>
@@ -159,13 +158,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678405158579</updated>
-    </task>
-    <task id="LOCAL-00003" summary="exercise 2">
-      <created>1678454727758</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1678454727758</updated>
     </task>
     <task id="LOCAL-00004" summary="exercise 2">
       <created>1678455069294</created>
@@ -503,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681567141573</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="esercizio Abastract Interface _2">
+      <created>1681655534281</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1681655534281</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -518,7 +517,8 @@
     <MESSAGE value="prova esame 3" />
     <MESSAGE value="prova esame 4" />
     <MESSAGE value="esercizio Inheritance _1" />
-    <option name="LAST_COMMIT_MESSAGE" value="esercizio Inheritance _1" />
+    <MESSAGE value="esercizio Abastract Interface _2" />
+    <option name="LAST_COMMIT_MESSAGE" value="esercizio Abastract Interface _2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Develhope_esercizi$javabasics__4_Main.ic" NAME="javabasics._4.Main Coverage Results" MODIFIED="1678454810719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
