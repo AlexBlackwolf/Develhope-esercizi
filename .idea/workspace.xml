@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6821525f-789b-4da2-9446-fcc40194a045" name="Changes" comment="esercizio _3 AdvOOP">
-      <change afterPath="$PROJECT_DIR$/src/javainproduction/_1/Exercises.java" afterDir="false" />
+    <list default="true" id="6821525f-789b-4da2-9446-fcc40194a045" name="Changes" comment="esercizio _1 javainproduction">
+      <change afterPath="$PROJECT_DIR$/src/Develhope-esercizi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javainproduction/_2/Exercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="aeb62c2a-63bb-48c0-95eb-6c55ba0c8d8e" name="esame 1" comment="">
@@ -53,18 +54,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "D:/progetti/progetti java/Develhope-esercizi"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/progetti/progetti java/Develhope-esercizi&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="JavaadvancedOOP._2" />
@@ -74,7 +75,7 @@
       <recent name="OOP._3" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.javainproduction._2.Exercises">
     <configuration name="BadgeTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="provaesame._prova4.BadgeTester" />
       <module name="Develhope-esercizi" />
@@ -127,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoCommit1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="provaesame.NoCommit.NoCommit1" />
+    <configuration name="javainproduction._2.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javainproduction._2.Exercises" />
       <module name="Develhope-esercizi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="provaesame._prova4.*" />
+          <option name="PATTERN" value="javainproduction._2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.javainproduction._2.Exercises" />
         <item itemvalue="Application.JavaadvancedOOP._3.Exercises" />
         <item itemvalue="Application.Exercises" />
         <item itemvalue="Application.BadgeTester" />
         <item itemvalue="Application.DigitalMenu" />
-        <item itemvalue="Application.NoCommit1" />
       </list>
     </recent_temporary>
   </component>
@@ -159,27 +160,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678405158579</updated>
-    </task>
-    <task id="LOCAL-00005" summary="exercise 2">
-      <created>1678457084062</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1678457084062</updated>
-    </task>
-    <task id="LOCAL-00006" summary="exercise 2">
-      <created>1678465675695</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1678465675695</updated>
-    </task>
-    <task id="LOCAL-00007" summary="exercise 2">
-      <created>1678468332099</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1678468332099</updated>
     </task>
     <task id="LOCAL-00008" summary="exercise 2">
       <created>1678475328898</created>
@@ -503,7 +483,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681657105207</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="esercizio _3 AdvOOP">
+      <created>1682205893541</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1682205893541</updated>
+    </task>
+    <task id="LOCAL-00055" summary="esercizio _3 AdvOOP">
+      <created>1682205908905</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1682205908905</updated>
+    </task>
+    <task id="LOCAL-00056" summary="esercizio _1 javainproduction">
+      <created>1682205954260</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1682205954260</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -520,7 +521,8 @@
     <MESSAGE value="esercizio Inheritance _1" />
     <MESSAGE value="esercizio Abastract Interface _2" />
     <MESSAGE value="esercizio _3 AdvOOP" />
-    <option name="LAST_COMMIT_MESSAGE" value="esercizio _3 AdvOOP" />
+    <MESSAGE value="esercizio _1 javainproduction" />
+    <option name="LAST_COMMIT_MESSAGE" value="esercizio _1 javainproduction" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Develhope_esercizi$javabasics__4_Main.ic" NAME="javabasics._4.Main Coverage Results" MODIFIED="1678454810719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
