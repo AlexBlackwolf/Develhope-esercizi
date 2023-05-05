@@ -1,0 +1,416 @@
+1-SWAP:
+
+temp is used to swap the values of variables
+ex:
+String x = "water";
+String y = "fanta";
+String temp;
+
+temp=x;
+x=y;        -> swap values
+y=temp;
+
+2-SCANNER:
+Scanner is put under main is a method used to input commands within the code
+
+Scanner scanner = new Scanner(System.in);
+        System.out.println("what is your name?");
+        String name = scanner.nextLine();
+        System.out.println("hello " + name);
+
+In case of interger follow the following change
+       int age = Integer.parseInt(scanner.NextLine());
+       int age = Integer.parseInt(scanner.nextLine());
+
+       scanner.nextLine(); is used to reset the scanner and go to the next statement
+
+3-EXPRESSIONS:
+    +,-,*,/
+    % remainder
+    10%2=0
+    10%3=1
+    ++; add 1 automatically
+
+4-RELATIONAL EXPRESSIONS:
+
+These expressions use relational operators such as ==, !=, <, >, <=, and >= to compare two values and return a boolean value (true or false). For example:
+ int x = 10;
+ int y = 5;
+ boolean isEqual = x == y;
+ boolean isNotEqual = x != y;
+ boolean isLessThan = x < y;
+ boolean isGreaterThan = x > y;
+ boolean isLessThanOrEqual = x <= y;
+ boolean isGreaterThanOrEqual = x >= y;
+
+ 5-GUI:
+
+ Similar to scanner lets you input information through a Dialogue box
+    Goes under Main like scanner:
+         String name = JOptionPane.showInputDialog("Enter your name? ");
+         JOptionPane.showMessageDialog(null, "hello "+name);
+         int age = Integer.parseInt(JOptionPane.showInputDialog("what is your age ? "));
+         JOptionPane.showMessageDialog(null, "your age is "+age);
+
+ 6-MATH:
+          max
+          min
+          abs = will remove negative
+          sqrt= square root
+          round = will remove decible
+          ceil = will round up and remove decible in case of 3.14 it will become 4
+          floor = will round down and remove decible
+
+          x = 3.14; //<-Assign
+          y = -10;
+          double z = Math.max(x, y);
+          System.out.println(z);
+
+ 7-RANDOM:
+ Random random = new Random (); Inside () you can set your limiter
+ double y = random.nextDouble(); use Integer in case of int or boolean as well
+
+         Random random = new Random();
+
+         int y = random.nextInt(5);
+                 System.out.println(y);
+8-IF:
+    if condition is true will perform first block/or other else if
+    in case is false will perform else block
+    ><= comparion operator
+    for equal use == / = is used to assign a value to a variable
+-SWITCH:
+    switch statment that allow variable to be tested for equality
+    use switch in case you got alot of condtiion instead of if
+    break is used to avoid running other conditions once the condition has been met
+    default will run if not condition has been met
+9-LOGICAL OPERATOR:
+    &&
+    ||
+    !
+    Logical operators are used to connect two or more expressions
+
+10-WHILE LOOP:
+ while loop = execute a block of code as long as its condition remain true
+ like an if statement but will continue as long as the condition remain true
+
+ //do loop we move the condition at the end of the block
+         //what this will always perform the block of code at least once
+         //than check the condition after
+         String sureName = "";
+ do {
+     System.out.println("enter your Surename ");
+     sureName = scanner.nextLine();
+         }while(sureName.isBlank());
+         System.out.println("hello Mr. "+sureName);
+
+11-FOR LOOP:
+
+//for loop execute a block of code a limited amount of times
+public class Main {
+    public static void main(String[] args) {
+        for (int i = 0; i <= 10; i++) {
+            System.out.println(i);
+        }
+        for(int i = 10; i >=0; i--){ //in case we wanna decrease by two we put i-=2
+            System.out.println(i);
+        }
+    }
+}
+//3 parts
+// 1st inside the parethensis we declare the starter counter/index sequence
+// 2nd we set the condition in this case that it will end at 10
+// 3rd increment the index
+
+12-NESTED LOOP:
+// nested loops= a loop inside a loop
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        int rows;
+        int columns;
+        String symbol = "";
+
+        System.out.println("Enter # of rows: ");
+        rows = scanner.nextInt();
+        System.out.println("Enter # of columns: ");
+        columns = scanner.nextInt();
+        System.out.println("Enter Symbol to use: ");
+        symbol = scanner.next();
+
+        for (int i = 1; i <= rows; i++) {
+            System.out.println();
+            for (int j = 1; j <= columns; j++) {
+                System.out.print(symbol);
+            }
+        }
+    }
+13-ARRAY:
+//array are used to store multiple values in a single variable
+public class Main {
+    public static void main(String[] args) {
+        String[] cars={"BMW","Corvette","Tesla"};
+        //elements are the slots inside an array it starts from 0
+        cars[0] = "Mustang";
+        System.out.println(cars[0]);
+        //in an array all values must have the same datatype
+        //if the array is of Strings all values will need to have the datatype of String
+
+        //additional way to write an array that is by allocating the numbers of elements
+        //we will need storing the value in a later time
+        String[] motos = new String[4];
+        motos[0] = "Harley";
+        motos[1] = "Tesla";
+        motos[2] = "Ducati";
+        motos[3] = "Honda";
+        // you can use a for loop to iterate the elements of an array
+        for(int i =0; i<motos.length;i++){
+            System.out.println(motos[i]);
+        }
+    }
+}
+14-2D ARRAY:
+//2D array = an array of arrays
+//think of it as a parking lot with rows and columns
+    public static void main(String[] args) {
+        String[][] fromSoftWare = new String[2][3];
+
+        fromSoftWare[0][0] = "Dark souls";
+        fromSoftWare[0][1] = "Dark souls 2";
+        fromSoftWare[0][2] = "Dark souls 3";
+        fromSoftWare[1][0] = "BloodBorne";
+        fromSoftWare[1][1] = "Sekiro";
+        fromSoftWare[1][2] = "Elden ring";
+
+        for(int i=0; i<fromSoftWare.length;i++) {
+            System.out.println();
+            for(int j=0;j<fromSoftWare[i].length;j++) {
+                System.out.println(fromSoftWare[i][j]+ " ");
+            }
+        }
+        //u can also make the array by adding the values at the begening
+        //Ex
+        String[][]monsterHunter = {
+                {"mh1", "mh2", "mh3", "mh4"},
+                {"mhw","mhr"}
+        };
+    }
+
+15-STRING METHODS:
+        String name = "Hunter ";
+        boolean result = name.equals("Hunter");
+        boolean result1 = name.equalsIgnoreCase("hunter");//ignore caps
+        int result2= name.length();
+        char result3=name.charAt(0);
+        int result4= name.indexOf("H");
+        boolean result5 = name.isEmpty();
+        String result6 = name.toUpperCase();
+        String result7 = name.toLowerCase();
+        String result8 = name.trim();//remove empty space
+        String result9 = name.replace("H","V");
+
+16-WRAPPER CLASS:
+provides a way to use primitive data types as reference data types
+reference data types contain useful methods
+can be used with collections (ex.Arraylist)
+
+reference types such as String has useful methods and can be used with collections
+disadvantage against primitive data types that  reference data types are slower
+to access compared to primitives
+
+Primitive:   Wrapper:
+boolean      Boolean
+char         Character
+int          Integer
+double       Double
+
+Autoboxing= the automatic conversion that java compiler makes between the primitive
+types and their corresponding object Wrapper class
+unboxing, by using var.into methods they will be treated as prim.
+
+17-ARRAY LIST:
+arraylist is a collection a type fo resizable array
+elements can be added and removed after compilation phase which you cannot do
+standard arrays
+"THEY ONLY STORE REFERENCE DATA TYPES SUCH AS STRING, INTEGER"
+
+18-2D ARRAY LIST:
+//2d Arraylist a list of separate lists
+//you can change the size of these lists during runtime
+
+FOR EACH LOOP: (also known as enhanced for loop)
+Traversing technique to iterate through the elements in array/collection
+less steps, more readable
+less felixble
+
+        String[] manga = {"onepiece", "berserk", "dragonball"};
+        -first part inside brackets insert the data type of our collection
+        -than index which is i
+        -than colum : which represent the word in
+        -than last list the collection/array at the end
+        for (String i : manga) {
+            System.out.println(i);
+
+19-METHODS:
+a method is a block of code that is executed whenever it is called upon
+
+20-OVERLOADED METHODS:
+methods that share the same name but have different parameters
+method name+parameters = method signature
+
+21-PRINTF:
+an optional method to control, format and display text to the console window
+two arguments = format string + (object/variable/value)
+%[flags] [precision][width][conversion-character]
+
+22-FINAL KEYWORD:
+anything that is declared as final cannot be updated or
+changed within your program
+
+23-OBJECT ORIENTED PROGRAMMING:
+objects = an instance of a class that may contain attributes and methods
+attributes characteristics of an object
+method what actions that object can perform
+
+24-CONSTRUCTOR:
+constructor is a special method that is called when an object is instantiated
+(created)
+constructors are useful they allows us to assign different attributes to each object
+instantiated
+
+25-LOCAL&GLOBAL VARIABLES:
+local = declared inside a method visible only to method
+global= declared outside a method, but within a class
+visible to all parts of a class
+
+26-OVERLOADED CONSTRUCTOR:
+multiple constructor within a class with the same name,
+but have different parameters
+name + parameter = signature
+
+27-TO STRING METHOD:
+toString() = a special method that all objects inherit,
+that returns a string that "texturally represents" an object
+can be used both implicitly and explicitly
+
+28-ARRAY OF OBJECTS:
+Game [] gamesCollection = new Game[3];
+        Game game1 = new Game("ds1");
+        Game game2 = new Game("ds2");
+        Game game3 = new Game("ds3");
+
+        gamesCollection[0] = game1;
+        gamesCollection[1] = game2;
+        gamesCollection[2] = game3;
+
+        //without.name it will print the adresss
+        System.out.println(gamesCollection[0].name);
+        System.out.println(gamesCollection[1].name);
+        System.out.println(gamesCollection[2].name);
+
+        //other method to write shorter is
+        //Game [] gamesCollection1 = {game1,game2,game3};
+29-OBJECT PASSING:
+        Garage garage = new Garage();
+        Car car1 = new Car("bmw");
+        Car car2= new Car("tesla");
+        garage.park(car1);
+        garage.park(car2);
+        //you can pass object as argument
+        //but when you declare that method
+        //you need to have the parameters set up
+        // to accept objects of that data type
+        //in this example we had the data type of car
+
+30-STATIC:
+A static method is a type of function in programming that
+belongs to a class or an object,but it doesn't depend on any
+particular instance of that class or object.
+This means that you can call a static method
+without creating an instance of the class or object it belongs to.
+Static methods are usually used for operations
+that are related to the class or object as a whole,
+rather than to specific instances of the class or object.
+For example, a static method in a math class might be
+used to calculate the square root of a number,
+because this calculation doesn't depend on any
+specific instance of the math class.
+
+31-INHERITANCE:
+the process where one class acquires the attributes and
+methods of another
+attributes are also known as "fields". Fields are variables
+that are declared within a class and can be used to store data for that class.
+Fields can be declared in the body of the class, usually at the beginning,
+before any methods are defined.
+
+32-METHOD OVERRIDING
+Declaring a method in sub Class;
+which is already present in parent class
+done so that a child class can gives its own implementation
+
+33-SUPER KEYWORD:
+keyword refers to the superclass(parent) of an object
+very similar to "this" keyword
+
+34-ABSTRACT
+abstract classes cannot be instantiated, but they can have a
+subclass
+abstract methods are declared without an implementation
+An abstract class is a class in object-oriented programming that cannot be instantiated,
+meaning you cannot create an object directly from it. Instead,
+it serves as a blueprint or template for other classes to inherit from.
+Abstract classes typically define a set of abstract methods that must be implemented
+by any concrete (non-abstract) class that inherits from it.
+These abstract methods are declared but do not contain any implementation details,
+leaving it up to the inheriting class to provide the actual code for these methods.
+In essence, an abstract class is a way to create a structure for related classes to follow,
+ensuring that they have certain methods and behaviors in common. It helps to promote code
+reusability and maintainability by creating a hierarchy of classes with a
+clear and consistent interface.
+
+35-ACCESS MODIFIERS
+Modifier Class package subclass world
+public      y     y        y      y
+protected   y     y        y      n
+no modifier y     y        n      n
+private     y     n        n      n
+
+36-ENCAPSULATION
+Attributes of a class will be hidden or private,
+can be accessed only through methods (getters & setters)
+you should make attributes private if you don't have a reason
+to make them public/protected
+
+37-COPY OBJECTS
+
+
+38-INTERFACE
+a template that can be applied to a class.
+similar to the inheritance, but specifies what a class has/must do
+classes can apply more than one interface,
+inheritance is limited 1 super
+
+39-POLYMORPHISM
+Greek world for poly mean many, morph mean form
+the ability of an object to identify as more than one type
+
+40-DYNAMIC POLYMORPHISM
+polymorphism = many shapes/form
+dynamic = after compilation (during runtime)
+ex. A corvette is a : corvette, and a car, and a vehicle
+and an object
+
+ex: choosing a boy or girl in pokemon
+ex: choosing a class in wow
+
+41-EXCEPTION HANDLING
+exception an event that occurs during the execution of a
+program that, disrupts the normal flow of instructions
+
+42-FILE CLASS
+file an abstract representation of file and directory path names
+
+43-FILE WRITER
+
