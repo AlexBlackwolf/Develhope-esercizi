@@ -1,0 +1,20 @@
+Realizzare una classe astratta di nome DispositiviDigitali che ha
+ - i seguenti attributi (protected) è la variabile della classe
+   - prezzo: Double
+   - barcode: Stringa
+   - iva: Double
+ - un metodo chiamato getPrezzoAlConsumatore che restituisce il prezzo maggiorato dell' iva (prezzo + prezzo * iva)
+ - un metodo astratto (void) che stampa l' oggetto compreso di prezzoAlConsumatore
+ - un costruttore full args (con tutti gli argomenti)
+
+Realizzare una classe chiamata Laptop che estende DispositiviDigitali e che ha i seguenti attributi:
+ - Ram: Integer
+ - HardDrive: Integer
+ - CPU: String
+ e che implementa un costruttore con tutti gli argomenti.
+
+
+Realizzare una classe di Test che:
+ - Costruisce una lista di DispositiviDigitali, inserendo 3 elementi
+ - Converte la lista in mappa usando come chiave il barcode (usando un costrutto iterativo)
+ - Stampa dalla mappa solo quelli che hanno un prezzo al consumatore > 1000
