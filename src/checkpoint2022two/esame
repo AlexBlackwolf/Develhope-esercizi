@@ -1,0 +1,24 @@
+CHECKPOINT 13/04/2023
+1) Definire una classe "Prodotto" che abbia i seguenti attributi privati:
+-	Codice prodotto
+-	Descrizione
+-	Prezzo
+●	Implementare il costruttore completo
+●	Implementare i relativi metodi di getter e setter
+●	Implementare il metodo toString() per mostrare in output le info relative all’istanza della classe.
+2) Progettare una classe Magazzino con i seguenti attributi:
+-	Mappa di prodotti // Prodotto, int → Prodotto, Quantità del prodotto nel magazzino
+●	Implementare un costruttore con l’unico attributo presente nella classe ed il costruttore di default.
+●	Implementare getter e setter.
+●	Realizzare un metodo salvaSuFile(String path) per salvare su file l'insieme di prodotti presenti nel magazzino con le relative disponibilità.
+●	Realizzare un metodo caricaDaFile(String path) che carichi da file i prodotti e li sostituisca alla mappa di prodotti presenti.
+●	Realizzare un metodo che stampi tutti i prodotti presenti nel magazzino con la relativa quantità.
+3)  Creare una classe Main nella quale:
+●	Istanziare 3 oggetti di tipo Prodotto.
+●	Istanziare un oggetto Magazzino e aggiungere i prodotti creati con relative disponibilità a piacere.
+●	Salvare i prodotti presenti nel magazzino sul file “magazzino.txt”.
+●	Stampare i prodotti nel magazzino.
+●	Istanziare un oggetto newMagazzino usando il costruttore di default
+●	Caricare i prodotti dal file “magazzino.txt”
+●	Stampare i prodotti di newMagazzino verificando che siano gli stessi di magazzino
+●	Utilizzando gli stream, filtrare i prodotti in base al prezzo (escludendone uno) e ordinarli in base al codice prodotto..
