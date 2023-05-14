@@ -20,6 +20,7 @@ DATE_SUB(COLUMN, INTERVAL EXPRESSION UNIT) - sottrae un intervallo di tempo spec
 FORMAT(COLUMN, FORMAT_STRING) - formatta una colonna numerica (COLUMN) in base a una stringa di formato specificata (FORMAT_STRING). La funzione restituisce una nuova colonna con i valori formattati.
 
 esercizio 2:
-SELECT DATE_ADD(NOW(), INTERVAL 4 MONTH) as BIRTHDAY;
 
-SELECT DATE_FORMAT(DATE_ADD(NOW(), INTERVAL 4 MONTH), '%Y-%m-%d 00:00:00') as BIRTHDAY_AT_MIDNIGHT;
+DATE_ADD(DATE_ADD(NOW(), INTERVAL 17 DAY), INTERVAL 8 MONTH) as BIRTHDAY_DATE
+
+SELECT DATE_FORMAT(DATE_ADD(NOW()INTERVAL 17 DAY), INTERVAL 8 MONTH), '%Y-%m-%d 00:00:00') as BIRTHDAY_AT_MIDNIGHT;
