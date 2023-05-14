@@ -414,3 +414,72 @@ file an abstract representation of file and directory path names
 
 43-FILE WRITER
 
+
+
+INTERNET
+
+INTERNET:
+
+Title: Come funziona internet (How the internet works)
+
+Summary: The video explains the basic concepts of how the internet works. It begins by explaining that the internet is a network of interconnected devices, such as computers and servers, that communicate with each other using a standardized protocol called the Internet Protocol (IP).
+
+The video then goes on to describe the different layers of the internet, from the physical layer of cables and devices to the application layer of websites and services. It also explains the role of different technologies, such as routers and switches, in transmitting data across the internet.
+
+The video then introduces the concept of domains and IP addresses, and explains how domain names are translated into IP addresses using the Domain Name System (DNS). It also explains the role of Internet Service Providers (ISPs) in providing access to the internet.
+
+Finally, the video discusses some of the challenges and issues related to internet usage, such as cyber attacks, online privacy, and net neutrality. It emphasizes the importance of responsible and ethical use of the internet, and encourages viewers to stay informed about the evolving nature of the internet and its impact on society.
+
+
+Title: Data Storage
+
+Summary: The video provides an overview of different types of data storage technologies used to store digital information. It begins by explaining the importance of data storage in modern computing and how the amount of data being created is increasing rapidly.
+
+The video then describes the two main types of data storage: primary storage and secondary storage. Primary storage, also known as volatile memory, is used to store data temporarily while a computer is running. Secondary storage, on the other hand, is non-volatile memory that can store data permanently or semi-permanently.
+
+The video goes on to describe the most common types of secondary storage technologies, including magnetic storage, optical storage, and solid-state storage. Magnetic storage uses spinning disks to store data on magnetic platters, while optical storage uses lasers to read and write data on optical discs. Solid-state storage, which includes technologies like USB flash drives and solid-state drives (SSDs), stores data using flash memory chips and has become increasingly popular in recent years due to its speed and reliability.
+
+The video also discusses the limitations and challenges of different types of storage technologies, such as the limited lifespan of flash memory and the slow read/write speeds of magnetic storage. It concludes by emphasizing the importance of choosing the right type of storage technology for a given application based on factors such as cost, speed, and reliability.
+
+
+Title: Anatomia dei messaggi HTTP (Anatomy of HTTP messages)
+
+Summary: The video explains the basic structure and components of HTTP messages. HTTP stands for Hypertext Transfer Protocol, which is the protocol used to transfer data between web servers and clients (such as web browsers).
+
+The video begins by explaining that HTTP messages consist of two main parts: the header and the body. The header contains information about the message, such as the type of request or response, the content type, and any cookies or authentication credentials. The body contains the actual data being sent, such as the HTML, CSS, or JavaScript code for a web page.
+
+The video then goes on to describe the different types of HTTP requests and responses, such as GET, POST, PUT, and DELETE. It explains how these requests and responses are used to retrieve and send data between web servers and clients.
+
+The video also discusses the role of status codes in HTTP messages, such as the 200 OK code for successful requests and the 404 Not Found code for failed requests. It explains how these codes are used to provide information about the status of the request and to help diagnose and troubleshoot issues.
+
+Finally, the video emphasizes the importance of understanding HTTP messages for web developers and encourages viewers to learn more about HTTP and its role in web development.
+
+
+Title: REST API
+
+Summary: The video explains the basic concepts of RESTful APIs. REST stands for Representational State Transfer, which is a set of principles for designing web services that are scalable, flexible, and easy to use.
+
+The video begins by explaining the six constraints of REST: client-server architecture, statelessness, cacheability, layered system, uniform interface, and code on demand. It then goes on to describe the different components of a RESTful API, such as resources, URIs, HTTP methods, and representations.
+
+The video also discusses the role of HTTP methods in RESTful APIs, such as GET, POST, PUT, and DELETE. It explains how these methods are used to perform different operations on resources, such as retrieving, creating, updating, and deleting data.
+
+The video then provides some examples of RESTful APIs, such as the Twitter API and the GitHub API. It shows how these APIs are designed to be easy to use and integrate with other applications, and how they can be used to retrieve and manipulate data from remote servers.
+
+Finally, the video emphasizes the importance of understanding RESTful APIs for web developers and encourages viewers to learn more about REST and its role in web development.
+
+
+Title: Postman
+
+Summary: The video explains the basics of Postman, a popular API testing and development tool. Postman is a desktop application that allows developers to send HTTP requests, test APIs, and automate testing and development workflows.
+
+The video begins by explaining the main features of Postman, such as creating requests, saving and organizing requests, and sharing collections with other team members. It also shows how to install and set up Postman on a desktop computer.
+
+The video then goes on to demonstrate how to create a simple request in Postman, using the GET method to retrieve data from a remote server. It explains how to set headers, query parameters, and authentication credentials in the request, and how to view the response from the server.
+
+The video also shows how to use Postman to test APIs with different HTTP methods, such as POST, PUT, and DELETE. It explains how to set up and send requests with different types of data, such as JSON and XML.
+
+Finally, the video discusses some advanced features of Postman, such as creating test scripts, setting up environment variables, and using Postman for automation and integration with other tools.
+
+Overall, the video provides a comprehensive overview of Postman and its capabilities, and is a useful resource for developers who want to learn more about API testing and development.
+
+
