@@ -1,0 +1,70 @@
+CREATE TABLE Customers (
+  customer_id INT NOT NULL AUTO_INCREMENT,
+  first_name VARCHAR(255) NOT NULL,
+  last_name VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  PRIMARY KEY (customer_id)
+);
+
+/*Insert some customers using the INSERT statement:
+INSERT INTO Customers (first_name, last_name, email)
+VALUES ('John', 'Doe', 'john.doe@example.com'),
+       ('Jane', 'Smith', 'jane.smith@example.com'),
+       ('David', 'Johnson', 'david.johnson@example.com');
+
+/*Edit customers using the UPDATE statement with a WHERE clause referring to the id:
+UPDATE Customers
+SET email = 'updated.email@example.com'
+WHERE customer_id = 2;
+
+/*Delete customers with the DELETE FROM statement and a WHERE clause referring to the id:
+DELETE FROM Customers
+WHERE customer_id = 3;
+
+/*Delete all customers with the TRUNCATE statement:
+TRUNCATE TABLE Customers;
+
+Look at the tables below and write which column(s) you think would make a good primary key.
+
+6 - Question
+
+CREATE TABLE Customers (
+ customer_id INT NOT NULL AUTO_INCREMENT,
+ first_name VARCHAR(255) NOT NULL,
+ last_name VARCHAR(255) NOT NULL,
+ email VARCHAR(255) NOT NULL,
+ PRIMARY KEY (customer_id)
+);
+
+6 - Answer : customer_id
+
+7 - Question
+
+CREATE TABLE Products (
+ product_name VARCHAR(255) NOT NULL,
+ product_description VARCHAR(255) NOT NULL,
+ product_price DECIMAL(10, 2) NOT NULL,
+ product_quantity INT NOT NULL
+);
+
+7 - Answer : product_id
+
+8 - Question
+
+CREATE TABLE Orders (
+ order_id INT NOT NULL AUTO_INCREMENT,
+ customer_id INT NOT NULL,
+ expected_arrival_time DATE
+);
+
+8 - Answer : order_id
+
+9 - Question
+
+CREATE TABLE Product_Orders (
+ order_id INT NOT NULL AUTO_INCREMENT,
+ product_name VARCHAR(255) NOT NULL,
+ total_revenue DOUBLE
+);
+
+9 - Answer : product_order_id
